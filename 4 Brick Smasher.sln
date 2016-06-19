@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{C1280E3B-6AB2-4A82-E4B4-9785ADED644E}") = "4 Block Breaker", "Assembly-CSharp.csproj", "{6B4AE6E9-128E-24FF-0D9F-9FC0B0C4FB38}"
+Project("{A58E2B4F-2B2F-FDBF-043C-6E2EB59FC7AC}") = "4 Brick Smasher", "Assembly-CSharp.csproj", "{CCE9F731-8C6D-7DF6-94A6-33D9B46FE181}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6B4AE6E9-128E-24FF-0D9F-9FC0B0C4FB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B4AE6E9-128E-24FF-0D9F-9FC0B0C4FB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B4AE6E9-128E-24FF-0D9F-9FC0B0C4FB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B4AE6E9-128E-24FF-0D9F-9FC0B0C4FB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE9F731-8C6D-7DF6-94A6-33D9B46FE181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE9F731-8C6D-7DF6-94A6-33D9B46FE181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE9F731-8C6D-7DF6-94A6-33D9B46FE181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE9F731-8C6D-7DF6-94A6-33D9B46FE181}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -36,4 +36,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
