@@ -31,4 +31,20 @@ public class ball : MonoBehaviour {
 		}
 		
 	}
+	
+	// Play boing sound:
+	void OnCollisionEnter2D(Collision2D collision) {
+		// Don't play the sound, when ball spawns on paddel:
+		if(started) {
+			audio.Play();
+		}
+
+		// Change the ball's velocity slightly on each collision (so that infinite loops don't occur)
+		Vector2 tweak = new Vector3(Random.Range (0f,0.2f), Random.Range (0f,0.2f));
+		rigidbody2D.velocity += tweak;
+	
+
+	}
+	
+	
 }
