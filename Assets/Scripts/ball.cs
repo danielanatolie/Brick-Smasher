@@ -2,8 +2,9 @@
 using System.Collections;
 
 public class ball : MonoBehaviour {
-	public paddle paddle; 
 	
+	// Will link the paddle to the ball:
+	private paddle paddle; 
 	// Distance between paddle and ball:
 	private Vector3 paddleToBallVector;
 	// Game state:
@@ -11,8 +12,8 @@ public class ball : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		paddle = GameObject.FindObjectOfType<paddle>();
 		paddleToBallVector = this.transform.position  - paddle.transform.position;
-		print (paddleToBallVector.y);
 	}
 	
 	// Update is called once per frame

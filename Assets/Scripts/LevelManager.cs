@@ -10,4 +10,9 @@ public class LevelManager : MonoBehaviour {
 		Debug.Log ("Quit requested.");
 		Application.Quit();
 	}
+	
+	// Load the next level according to the build settings
+	public void loadNextLevel() {
+		Application.LoadLevel(Application.loadedLevel+1);
+	}
 }
